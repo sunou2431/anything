@@ -1,0 +1,73 @@
+h1. README
+
+h2. Name
+
+rroonga
+
+h2. Description
+
+Ruby bindings for groonga that provide full text search and
+column store features.
+
+rroonga is an extension library to use groonga's DB-API
+layer. rroonga provides Rubyish readable and writable API
+not C like API. You can use groonga's fast and highly
+functional features from Ruby with Rubyish form.
+
+See the following URL about groonga.
+
+* "The groonga official site":http://groonga.org/
+
+h2. Authors
+
+* Kouhei Sutou <kou@clear-code.com>
+* Tasuku SUENAGA <a@razil.jp>
+* Daijiro MORI <morita@razil.jp>
+* Yuto HAYAMIZU <y.hayamizu@gmail.com>
+* SHIDARA Yoji <dara@shidara.net>
+* yoshihara haruka <yoshihara@clear-code.com>
+
+h2. License
+
+LGPL 2.1. See license/LGPL for details.
+
+(Kouhei Sutou has a right to change the license including
+contributed patches.)
+
+h2. Dependencies
+
+* Ruby >= 1.8 (including 1.9.2)
+* groonga >= 1.2.0
+
+h2. Install
+
+<pre>
+!!!command_line
+% sudo gem install rroonga
+</pre>
+
+h2. Documents
+
+* "Reference manual in English":http://ranguba.org/rroonga/en/
+* "Reference manual in Japanese":http://ranguba.org/rroonga/ja/
+
+h2. Mailing list
+
+* English: "groonga-users-en":http://rubyforge.org/mailman/listinfo/groonga-users-en
+* Japanese: "groonga-dev":http://lists.sourceforge.jp/mailman/listinfo/groonga-dev
+
+h2. Thanks
+
+* Daijiro MORI: sent patches to support the latest groonga.
+* Tasuku SUENAGA: sent bug reports.
+* niku: sent bug reports.
+* dara:
+** wrote tests.
+** fixed bugs.
+* id:mat_aki: sent bug reports.
+* @yune_kotomi: sent a bug report.
+* m_seki: sent bug reports.
+* ono matope: sent bug reports.
+* @kamipo: send a bug report.
+* ongaeshi: sent a patch to build gem on Windows.
+* mallowlabs: send a patch.
